@@ -14,4 +14,3 @@ void main() {
   }
   print(GetAvrage('muhammed',[25, 45, 10, 30]));
 }
-

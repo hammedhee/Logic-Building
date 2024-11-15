@@ -4,6 +4,7 @@
  getAverage({name: "John", marks: [25, 45, 10, 30] }) ➞ 27.5
  getAverage({name: "Kevin", marks: [50, 45, 40, 40, 25] }) ➞ 40 */
 //                 answer
+<<<<<<< HEAD
 
 
 void main() {
@@ -15,3 +16,14 @@ void main() {
 }
 
 
+=======
+ void main() {
+   GetAvrage(String name ,List marks) {
+    int totel = marks.reduce((a, b) => a + b);
+     return totel / marks.length;
+   }
+   print(GetAvrage('muhammed',[25, 45, 10, 30]));
+ }
+
+
+>>>>>>> 096e5c35cba4b419df100946f3269be83607c8ef

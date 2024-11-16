@@ -1,18 +1,16 @@
-
-// this is a sim[ple program with swich case 
-
+// this is a sim[ple program with swich case
 
 void main() {
-  int order = 3;
-  switch (order) {
+  int a = 4;
+  switch (a) {
     case 1:
-      print('order one ');
+      print('hi');
       break;
     case 2:
-      print('case 2');
+      print('hello');
       break;
     case 3:
-      print('dhosha');
-    default:
+      print('hyy');
+      break;
   }
 }
